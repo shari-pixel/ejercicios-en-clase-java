@@ -1,0 +1,55 @@
+// import static org.junit.jupiter.api.Assertions.assertEquals;
+
+// import org.junit.jupiter.api.Test;
+
+public class Main {
+  public static void main(String[] args) {
+    System.out.println("shari");
+    System.out.println("integers" + 10 +
+                      "\n double" + 3.14 +
+                      "\n boolean" + true);
+
+    
+//tipos de datos java
+    
+    int numint = 10;
+    double numdouble = 3.14;
+    boolean bool = true;
+    char numchar = 'a';
+    byte edad = 20;
+    short numshort = 10;
+    long numlong = 10;
+    int [] numeros = {1,2,3,4,5};
+    String[ ] nombres = {"shari","juan","jose"};
+
+    System.out.print("\n tintegers" + numint + 
+                     "\n tdouble: " + 3.14 + 
+                     "\n tboolean" + true + 
+                     "\n tchar" + numchar + 
+                     "\n tbyte" + edad + 
+                     "\n tshort" + numshort + 
+                     "\n tlong" + numlong + 
+                     "\n tint[]" + numeros + 
+                     "\n tString[]" + nombres);
+
+    //operadores matematicos
+
+    int nu = 10;
+    int nu2 = 20;
+    int suma = nu + nu2;
+    int resta = nu - nu2;
+    int mult = nu * nu2;
+    int div = nu / nu2;
+    int mod = nu % nu2;
+    System.out.println("\n suma: " + suma + 
+                       "\n resta: " + resta + 
+                       "\n multiplicacion: " + mult + 
+                       "\n division: " + div +
+                       "\n modulo: " + mod );
+  }
+
+  // @Test
+  // void addition() {
+  //     assertEquals(2, 1 + 1);
+  // }
+}
